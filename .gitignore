@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.DS_Store
+.idea/
+.vscode/
+.pytest_cache/
+
+# Generated data – keep only the small demo and the full CSV/manifest artefacts
+data/*
+!data/demo/
+!data/full/
+data/full/json/
